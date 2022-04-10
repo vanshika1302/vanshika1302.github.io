@@ -1,0 +1,179 @@
+.cover {
+    width: 100%;
+}
+
+.cover .images {
+    position: relative;
+    width: 100%;
+}
+
+.cover .images img {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    left: 0;
+    filter: grayscale(100);
+    margin-top: 5%;
+}
+
+.cover img.headerimg:hover{
+    filter: grayscale(0);
+    transition: filter 1s ease-in-out;
+}
+
+.content {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 60%;
+}
+
+.content .about-me span {
+    font-family: "Segoe UI Italic";
+    color: #808893;
+    font-size: medium;
+    font-weight: 100;
+}
+.content p {
+    font-family: "Segoe UI Italic";
+    color: #808893;
+    font-size: small;
+    font-weight: 100;
+}
+
+.education, .work-experience, .skills, .projects, .certificates, .languages {
+    margin-top: 7%;
+}
+
+.languages{
+    padding-bottom: 10%;
+}
+
+.language-content {
+    display: flex;
+}
+
+.language-block2 {
+    padding-left: 10%;
+}
+
+.certificate-block {
+    padding-top: 1.3%;
+}
+
+h1 {
+    font-family: 'Segoe UI Bold';
+    color: white;
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+h3 {
+    font-family: 'Segoe UI';
+    color: wheat;
+    font-weight: 100;
+    font-size: medium;
+}
+
+p {
+    font-family: "Segoe UI Italic";
+    color: #808893;
+    font-weight: 100;
+}
+
+.skills img {
+    width: 7%;
+    height: auto;
+    padding-right: 1.5%;
+}
+
+a {
+    font-family: "Segoe UI Italic";
+    color: wheat;
+    font-weight: 100;
+    padding-right: 10%;
+}
+
+.work-experience ul,.projects ul {
+    list-style: none; 
+}
+
+.work-experience ul li, .projects ul li {
+    font-family: "Segoe UI Italic";
+    color: #808893;
+    font-weight: 100;
+}
+
+.work-experience ul li::before, .projects ul li::before {
+    content: "-";
+    width: 0.1em;
+    margin-left: -2em;
+    margin-right: 1%;
+}
+
+.button {
+    margin-top: 10%;
+    background-color: wheat;
+    width: 20%;
+    height: 10%;
+    border-radius: 1rem;
+}
+
+.button h2 {
+    text-align: center;
+    padding: 8%;
+}
+
+/* Media queries */
+@media only screen and (max-width:700px) {
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-family: 'Segoe UI';
+        color: white;
+        font-weight: 100;
+        font-size: small;
+    }
+    
+    .content {
+        margin-top: 60%;
+    }
+    
+    .cover img.headerimg:hover{
+        filter: grayscale(100);
+    }
+
+    .skills img {
+        width: 20%;
+    }
+
+    .work-experience ul li::before, .projects ul li::before {
+        margin-right: 5%;
+    }
+
+    .button {
+        margin-top: 10%;
+        background-color: wheat;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 10%;
+    }
+    
+    .button h2 {
+        text-align: center;
+        padding: 8%;
+    }
+}
