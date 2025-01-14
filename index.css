@@ -1,0 +1,431 @@
+ /* top - section [START] */
+
+.top-section .title {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;
+}
+
+.top-section .title h1 {
+    color: white;
+    text-align: center;
+    font-family: "Segoe UI Bold";
+    font-size: 7.4rem;
+    letter-spacing: 1rem;
+    white-space: nowrap;
+}
+
+.top-section .flex {
+    display: flex;
+    width: 85%;
+    margin-left: 6%;
+    justify-content: space-between;
+    margin-top: -8%;
+}
+
+.top-section .flex h2 {
+    color: white;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 1rem;
+    font-weight: 100;
+    color: #737373;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.top-section .flex h3 {
+    color: white;
+    text-align: left;
+    font-family: "Segoe UI";
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: underline;
+    padding-left: 2%;
+    padding-right: 2%;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.top-section .flex h3 a {
+    text-decoration: underline;
+    color: wheat;
+}
+
+.top-section .banner img{
+    width: 90%;
+    margin-right: 10%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.top-section .banner-mobile img{
+    display: none;
+}
+/* top - section [END] */
+
+/* middle - section [START] */
+.middle-section {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.middle-section .cards {
+    width: 50%;
+}
+
+.middle-section .cards .card {
+    display: flex;
+    background-color: #1A1A1A;
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    transform-style: preserve-3d;
+}
+
+.middle-section .card .card-content {
+    width: 70%;
+}
+
+.middle-section .card .card-emoji {
+    width: 30%;
+}
+
+.middle-section .card .card-content h1 {
+    color: white;
+    text-align: left;
+    font-family: "Segoe UI Bold";
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding-left: 8%;
+    padding-top: 5%;
+    transform: translateZ(10px);
+}
+
+.middle-section .card .card-content h2 {
+    color: white;
+    text-align: left;
+    font-family: "Ubuntu-Light";
+    font-size: 0.7rem;
+    font-weight: 100;
+    padding-left: 8%;
+    transform: translateZ(10px);
+}
+
+.middle-section .card .card-content p {
+    color: white;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 0.8rem;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    transform: translateZ(10px);
+}
+
+.middle-section .card .card-emoji h3 {
+    float: right;
+    font-size: 2rem;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    margin-right: 30%;
+    transform: translateZ(10px);
+}
+
+.middle-section .middle-content {
+    float: right;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 18%;
+}
+
+.middle-section .middle-content h1 {
+    color: #808893;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 5rem;
+}
+
+.middle-section .middle-content h2 {
+    color: #fff;
+    text-align: left;
+    font-family: "Segoe UI Bold";
+    font-size: 2rem;
+}
+
+.middle-section .middle-content h3 {
+    color: #fff;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 1.3rem;
+}
+
+.middle-section .middle-content p {
+    color: #737373;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 1.2rem;
+}
+/* middle - section [END] */
+
+/* Bottom - section [START] */
+.bottom-section {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+.bottom-section .bottom-left, .bottom-section .bottom-right {
+    width: 50%;
+}
+
+.bottom-section .bottom-left .product-card, .bottom-section .bottom-right .product-card {
+    background-color: #1A1A1A;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: auto;
+    border-radius: 3rem;
+    transform-style: preserve-3d;
+}
+
+.bottom-section .bottom-right .product-card {
+    margin-left: 20%;
+    width: 80%;
+    height: auto;
+}
+
+.bottom-section .bottom-left .product-card h1, .bottom-section .bottom-right .product-card h1 {
+    font-family: "Segoe UI Italic";
+    font-weight: 1;
+    font-size: 0.8rem;
+    color: #737373;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    transform: translateZ(20px);
+}
+
+.bottom-section .bottom-left .product-card h2, .bottom-section .bottom-right .product-card h2 {
+    font-family: "Segoe UI Bold";
+    font-weight: 100;
+    font-size: 1.7rem;
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 10%;
+    transform: translateZ(20px);
+}
+
+.bottom-section .bottom-left .product-card h3, .bottom-section .bottom-right .product-card h3 {
+    font-family: "Segoe UI";
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    transform: translateZ(20px);
+}
+
+.bottom-section .bottom-left .product-card img, .bottom-section .bottom-right .product-card img {
+    width: 30%;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    transform: translateZ(20px);
+}
+
+.bottom-section .top-text h1 {
+    color: #fff;
+    text-align: left;
+    font-family: "Segoe UI Bold";
+    font-size: 2rem;
+}
+
+.bottom-section .top-text p {
+    color: #737373;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 1.2rem;
+}
+
+.bottom-section .bottom-text h1 a {
+    color: wheat;
+    text-align: left;
+    font-family: "Segoe UI Bold";
+    font-size: 2rem;
+}
+
+.bottom-section .bottom-text p {
+    color: #737373;
+    text-align: left;
+    font-family: "Segoe UI Italic";
+    font-size: 1.2rem;
+    padding-right: 10%;
+}
+
+.bottom-section .bottom-text a {
+    color: wheat;
+    text-align: left;
+    font-family: "UbuntuMono-Regular";
+    font-size: 1.2rem;
+}
+/* Bottom - section [END] */
+
+/* Media queries */
+@media only screen and (max-width:700px) {
+
+    /* top - section [START] */
+    .top-section {
+        display: inline;
+        margin-top: 15%;
+    }
+
+    .top-section .title {
+        width: 80%;
+        margin-left: 6%;
+        margin-right: 0%;
+        margin-top: 10%;
+    }
+
+    .top-section .title h1 {
+        text-align: left;
+        font-size: 2rem;
+        letter-spacing: 0rem;
+        white-space: unset;
+    }
+
+    .top-section .title h2 {
+        text-align: center;
+        width: 60%;
+        padding-left: 20%;
+    }
+    
+    .top-section .flex {
+        display: block;
+        width: 85%;
+        margin-left: 6%;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+
+    .top-section .flex h2 {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 10%;
+    }
+    
+    .top-section .flex h3 {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 10%;
+        white-space: unset;
+    }
+
+    .top-section .banner img{
+        display: none;
+    }
+
+    .top-section .banner-mobile img{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 50%;
+        object-fit: contain;
+    }
+    /* top - section [END] */
+
+    /* middle - section [START] */
+    .middle-section {
+        display: block;
+        width: 80%;
+        padding-top: 20%;
+    }
+
+    .middle-section .cards {
+        width: 100%;
+    }
+
+    .middle-section .cards .card {
+        transform-style: flat;
+    }
+
+    .middle-section .card .card-content h1 {
+        transform: none;
+    }
+
+    .middle-section .card .card-content h2 {
+        transform: none;
+    }
+
+    .middle-section .card .card-content p {
+        transform: none;
+    }
+
+    .middle-section .card .card-emoji h3 {
+        transform: none;
+    }
+    
+    .middle-section .middle-content {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    /* middle - section [END] */
+
+    /* Bottom - section [START] */
+    .bottom-section {
+        display: block;
+    }
+
+    .bottom-section .bottom-left, .bottom-section .bottom-right {
+        width: 100%;
+    }
+    
+    .bottom-section .bottom-left .product-card, .bottom-section .bottom-right .product-card {
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .bottom-section .bottom-right .product-card {
+        margin-left: 0%;
+        width: 100%;
+        transform-style:flat;
+    }
+
+    .bottom-section .bottom-text p {
+        padding-right: 0%;
+    }
+
+    .bottom-section .bottom-left .product-card h1, .bottom-section .bottom-right .product-card h1 {
+        transform: none;
+    }
+
+    .bottom-section .bottom-left .product-card h2, .bottom-section .bottom-right .product-card h2 {
+        transform: none;
+    }
+    .bottom-section .bottom-left .product-card h3, .bottom-section .bottom-right .product-card h3 {
+        transform: none;
+    }
+    .bottom-section .bottom-left .product-card img, .bottom-section .bottom-right .product-card img {
+        transform: none;
+    }
+    /* Bottom - section [END] */
+}
